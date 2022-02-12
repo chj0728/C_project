@@ -14,8 +14,8 @@ void main()
         printf("long double = %d\n",sizeof(long double));
 
         int ss;
-        ss=p(5,3);
-        printf("%d的%d次方等于%d",5,3,ss);
+        ss=p(2,3);
+        printf("%d的%d次方等于%d",2,3,ss);
 }
 int p(int a,int b)
 {       int i,s;
