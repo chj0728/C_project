@@ -4,14 +4,14 @@ void main()
 {       int p(int a,int b);
         printf("Hello World!\n");
         printf("Hello world\b\b\b\b\bFishC\n");
-        printf("int = %d\n",sizeof(int));
-        printf("short int = %d\n",sizeof(short int));
-        printf("long int = %d\n",sizeof(long int));
-        printf("long long int = %d\n",sizeof(long long int));
-        printf("_Bool = %d\n",sizeof(_Bool));
-        printf("float = %d\n",sizeof(float));
-        printf("double = %d\n",sizeof(double));
-        printf("long double = %d\n",sizeof(long double));
+        printf("int = %ld\n",sizeof(int));
+        printf("short int = %ld\n",sizeof(short int));
+        printf("long int = %ld\n",sizeof(long int));
+        printf("long long int = %ld\n",sizeof(long long int));
+        printf("_Bool = %ld\n",sizeof(_Bool));
+        printf("float = %ld\n",sizeof(float));
+        printf("double = %ld\n",sizeof(double));
+        printf("long double = %ld\n",sizeof(long double));
 
         int pp;
         pp=p(2,3);
